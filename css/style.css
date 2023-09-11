@@ -168,7 +168,7 @@ a {
   z-index: 100;
 }
 .carousel-indicators {
-  bottom: 20vh;
+  /* bottom: 20vh; */
   /* top: 10vh; */
 }
 
@@ -426,9 +426,13 @@ a {
 
     left: 0;
   }
-
+  .position-relative{
+    position: relative !important;
+    padding-top: 35px;
+  }
   .navbar-brand img {
-    width: 75%;
+    width: 65%;
+    max-width: 260px;
   }
   /***********************************/
   /************ HEADER ***************/

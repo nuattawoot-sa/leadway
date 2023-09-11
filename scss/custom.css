@@ -6089,13 +6089,13 @@ textarea.form-control-lg {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 30px;
-  height: 3px;
+  height: 4px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: white;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -6119,7 +6119,7 @@ textarea.form-control-lg {
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: #fff;
+  color: gray;
   text-align: center;
 }
 
@@ -6128,10 +6128,10 @@ textarea.form-control-lg {
   filter: invert(1) grayscale(100);
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #000;
+  background-color: gray;
 }
 .carousel-dark .carousel-caption {
-  color: #000;
+  color: gray;
 }
 
 [data-bs-theme=dark] .carousel .carousel-control-prev-icon,
@@ -6140,10 +6140,10 @@ textarea.form-control-lg {
   filter: invert(1) grayscale(100);
 }
 [data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
-  background-color: #000;
+  background-color: gray;
 }
 [data-bs-theme=dark] .carousel .carousel-caption, [data-bs-theme=dark].carousel .carousel-caption {
-  color: #000;
+  color: gray;
 }
 
 .spinner-grow,
