@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.001" height="50.001" viewBox="0 0 50.001 50.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.001" x2="0.5" y2="0.984" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4ca8dd"/>
+      <stop offset="1" stop-color="#3b69b2"/>
+    </linearGradient>
+  </defs>
+  <g id="P.Lean_-_Website_-_Contact_Facebook_220902" data-name="P.Lean - Website - Contact (Facebook) 220902" transform="translate(0.001 0)">
+    <path id="Path_35" data-name="Path 35" d="M25.12,0A25,25,0,1,0,50,25,25,25,0,0,0,25.12,0Z" fill="url(#linear-gradient)"/>
+    <path id="Path_36" data-name="Path 36" d="M27,40.84H20.83V25.77c0-.75,0-.75-.75-.75h-2c-.15,0-.41-.23-.41-.36V18.77h1.76c1.39,0,1.36,0,1.39-1.36A17.82,17.82,0,0,1,21,14a5.48,5.48,0,0,1,5.32-4.62c1.93-.14,3.89,0,5.88,0v5.31H29.43a8,8,0,0,0-.85,0,1.26,1.26,0,0,0-1.23,1.25c0,.81,0,1.63,0,2.44,0,.39.21.42.5.42h4.52c-.13,1.47-.26,2.86-.38,4.25-.05.51-.13,1-.15,1.53s-.18.5-.55.5H27.77c-.57,0-.7.18-.69.71V40.11A4.257,4.257,0,0,0,27,40.84Z" fill="#fff"/>
+  </g>
+</svg>
