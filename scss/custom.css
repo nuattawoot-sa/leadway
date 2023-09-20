@@ -4374,7 +4374,7 @@ textarea.form-control-lg {
 
 .navbar-dark,
 .navbar[data-bs-theme=dark] {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-color: rgba(0, 255, 255, 0.55);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
@@ -6089,13 +6089,13 @@ textarea.form-control-lg {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 30px;
-  height: 4px;
+  height: 3px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: white;
+  background-color: #fff;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -6119,7 +6119,7 @@ textarea.form-control-lg {
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: gray;
+  color: #fff;
   text-align: center;
 }
 
@@ -6128,10 +6128,10 @@ textarea.form-control-lg {
   filter: invert(1) grayscale(100);
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: gray;
+  background-color: #000;
 }
 .carousel-dark .carousel-caption {
-  color: gray;
+  color: #000;
 }
 
 [data-bs-theme=dark] .carousel .carousel-control-prev-icon,
@@ -6140,10 +6140,10 @@ textarea.form-control-lg {
   filter: invert(1) grayscale(100);
 }
 [data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
-  background-color: gray;
+  background-color: #000;
 }
 [data-bs-theme=dark] .carousel .carousel-caption, [data-bs-theme=dark].carousel .carousel-caption {
-  color: gray;
+  color: #000;
 }
 
 .spinner-grow,
