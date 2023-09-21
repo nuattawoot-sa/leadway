@@ -1,0 +1,44 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$container-max-widths: (
+  sm: 1320px,
+  md: 1320px,
+  lg: 1320px,
+  xl: 1320px,
+);
+$grid-breakpoints: (
+  xs: 0,
+  xsm: 430px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$yellow-1: #ecb51d;
+$yellow-2: #cd8c3e;
+$yellow-3: #c78528;
+
+$theme-colors: (
+  "yellow-1": $yellow-1,
+  "yellow-2": $yellow-2,
+  "yellow-3": $yellow-3,
+);
+
+$spacer: 1rem;
+$spacers: (
+  auto: auto,
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 9,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

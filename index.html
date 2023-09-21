@@ -64,98 +64,112 @@
             </div>
          </div>
       </div>
+      <!-- Contact Button -->
+      <button class="fixed bottom-[20px] right-[1%] z-99999 chat-button">
+         <div class="absolute bottom-[100%] w-full chat-list">
+            <a href="#"><img src="./assets/icons/facebook-messenger-circle-blue-logo-16641.svg" alt=""></a>
+            <!-- <a href="https://bit.ly/3sKOTOG"><img src="./assets/icons/instagram-chat.svg" alt=""></a> -->
+            <a href="#"><img src="./assets/icons/line-chat.svg" alt=""></a>
+            <!-- <a href="https://bit.ly/3sGoCRU"><img src="./assets/icons/myshop-chat.svg" alt=""></a>
+               <a href="https://bit.ly/3BoC5S0"><img src="./assets/icons/shopee-chat.svg" alt=""></a>
+               <a href="https://bit.ly/3UEPWfr"><img src="./assets/icons/lazada-chat.svg" alt=""></a> -->
+            <a href="tel:0999999999"><img src="./assets/icons/phone-chat.svg" alt=""></a>
+         </div>
+         <h2 class="chat-button-text text-[1.4rem] font-medium text-white absolute left-[18%] top-[20%]">ติดต่อ</h2>
+         <div class="dot absolute left-[25%] top-[35%] flex">
+            <div class=""></div>
+            <div class="mx-2"></div>
+            <div class=""></div>
+         </div>
+         <img src="./assets/icons/chat.svg" alt="" class="w-[100px]">
+      </button>
       <!-- navbar -->
       <nav
-         class="navbar navbar-expand-lg pt-3 pb-2 font-roboto fw-bold text-uppercase position-fixed sticky-top w-100"
+         class="navbar navbar-expand-lg pt-3 pb-lg-2 pb-0 font-roboto fw-bold text-uppercase position-fixed sticky-top w-100"
          >
          <div class="container">
-            <!-- <div class=""> -->
-            <a class="navbar-brand" href="#">
-            <img src="assets/Logo.svg" class="img-fluid" alt=""/>
-            </a>
-            <!-- </div>
-               <div class=""> -->
-            <button
-               class="navbar-toggler"
-               type="button"
-               data-bs-toggle="collapse"
-               data-bs-target="#navbarNavDropdown"
-               aria-controls="navbarNavDropdown"
-               aria-expanded="false"
-               aria-label="Toggle navigation"
-               >
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- </div> -->
-            <!-- <div class=""></div> -->
+            <a class="navbar-brand" href="#"
+               ><img src="assets/Logo.svg" class="img-fluid" alt=""
+               /></a>
+            <div class="d-flex mx-3 gap-3">
+               <div class="dropdown d-lg-none d-block">
+                  <a
+                     class="d-flex align-items-center text-white"
+                     href="#"
+                     data-bs-toggle="dropdown"
+                     >
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="40"
+                        height="40"
+                        viewBox="0 0 50 50"
+                        fill="#fff"
+                        >
+                        <path
+                           d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                           ></path>
+                     </svg>
+                  </a>
+                  <ul class="dropdown-menu" id="searchMenuSmall">
+                     <div class="container d-flex py-5">
+                        <input
+                           type="text"
+                           placeholder="what are you looking for?"
+                           class="search-input"
+                           />
+                        <button class="search-btn d-flex align-items-center p-1">
+                           <p class="fw-bold mb-0 me-1">Search</p>
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              x="0px"
+                              y="0px"
+                              width="40"
+                              height="40"
+                              viewBox="0 0 50 50"
+                              fill="#fff"
+                              >
+                              <path
+                                 d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                                 ></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </ul>
+               </div>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  >
+               <span class="navbar-toggler-icon"></span>
+               </button>
+            </div>
             <div
                class="collapse navbar-collapse flex-grow-1"
                id="navbarNavDropdown"
                >
                <ul
-                  class="navbar-nav d-flex justify-content-between w-100 ps-lg-7 pt-lg-0 pt-5"
+                  class="navbar-nav d-flex justify-content-between w-100 ps-lg-7 pt-lg-0 pt-3"
                   >
                   <li class="nav-item dropdown">
                      <a
-                        class="nav-link d-flex align-items-center text-gray"
+                        class="nav-link d-flex align-items-center text-black-50 active"
                         href="#"
                         role="button"
                         data-bs-toggle="dropdown"
                         >
                         <p class="mb-0 me-1">Home</p>
-                        <img src="assets/dropdown.svg" alt="" />
                      </a>
-                     <ul class="dropdown-menu">
-                        <div class="container d-lg-block d-none py-5">
-                           <div class="row row-cols-4 align-items-center">
-                              <div class="col head d-lg-block d-none">
-                                 <a href="#"
-                                    >
-                                    <h1 class="text-white head fw-bold">Home</h1>
-                                 </a>
-                              </div>
-                              <div class="col">
-                                 <ul>
-                                    <li><a href="#">Example-1</a></li>
-                                    <li><a href="#">Example-2</a></li>
-                                    <li><a href="#">Example-3</a></li>
-                                    <li><a href="#">Example-4</a></li>
-                                 </ul>
-                              </div>
-                              <div class="col">
-                                 <ul>
-                                    <li><a href="#">Example-1</a></li>
-                                    <li><a href="#">Example-2</a></li>
-                                    <li><a href="#">Example-3</a></li>
-                                 </ul>
-                              </div>
-                              <div class="col">
-                                 <ul>
-                                    <li><a href="#">Example-1</a></li>
-                                    <li><a href="#">Example-2</a></li>
-                                    <li><a href="#">Example-3</a></li>
-                                    <li><a href="#">Example-4</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="dropdown-item d-lg-none">
-                           <li><a href="#" class="nav-link ps-1 py-0">Example-1</a></li>
-                        </div>
-                        <div class="dropdown-item d-lg-none">
-                           <li><a href="#" class="nav-link ps-1 py-0">Example-2</a></li>
-                        </div>
-                        <div class="dropdown-item d-lg-none">
-                           <li><a href="#" class="nav-link ps-1 py-0">Example-3</a></li>
-                        </div>
-                        <div class="dropdown-item d-lg-none">
-                           <li><a href="#" class="nav-link ps-1 py-0">Example-4</a></li>
-                        </div>
-                     </ul>
                   </li>
                   <li class="nav-item dropdown">
                      <a
-                        class="nav-link d-flex align-items-center text-gray"
+                        class="nav-link d-flex align-items-center text-black-50"
                         href="#"
                         data-bs-toggle="dropdown"
                         >
@@ -200,7 +214,7 @@
                   </li>
                   <li class="nav-item dropdown">
                      <a
-                        class="nav-link d-flex align-items-center text-gray"
+                        class="nav-link d-flex align-items-center text-black-50"
                         href="#"
                         data-bs-toggle="dropdown"
                         >
@@ -237,14 +251,9 @@
                         </div>
                      </ul>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link d-flex align-items-center text-gray" href="#">
-                        <p class="mb-0 me-1">Contact</p>
-                     </a>
-                  </li>
                   <li class="nav-item dropdown">
                      <a
-                        class="nav-link d-flex align-items-center text-gray"
+                        class="nav-link d-flex align-items-center text-black-50"
                         href="#"
                         data-bs-toggle="dropdown"
                         >
@@ -302,14 +311,83 @@
                         </div>
                      </ul>
                   </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link d-flex align-items-center text-black-50"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        >
+                        <p class="mb-0 me-1">Tips & Tricks</p>
+                        <img src="assets/dropdown.svg" alt="" />
+                     </a>
+                     <ul class="dropdown-menu">
+                        <div class="container d-lg-block d-none py-5">
+                           <div class="row row-cols-4 align-items-center">
+                              <div class="col head d-lg-block d-none">
+                                 <a href="#"
+                                    >
+                                    <h1 class="text-white head fw-bold">
+                                       Tips <br />
+                                       & Tricks
+                                    </h1>
+                                 </a>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                    <li><a href="#">Example-4</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                    <li><a href="#">Example-4</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-1</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-2</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-3</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-4</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link d-flex align-items-center text-black-50" href="#">
+                        <p class="mb-0 me-1">Contact</p>
+                     </a>
+                  </li>
                   <li class="dropdown d-lg-block d-none">
-                     <a class="d-flex align-items-center text-white" href="#" data-bs-toggle="dropdown" style="padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);">
+                     <a
+                        class="d-flex align-items-center text-white"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        >
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
                            x="0px"
                            y="0px"
-                           width="30"
-                           height="30"
+                           width="40"
+                           height="40"
                            viewBox="0 0 50 50"
                            fill="#595959"
                            >
@@ -331,10 +409,10 @@
                                  xmlns="http://www.w3.org/2000/svg"
                                  x="0px"
                                  y="0px"
-                                 width="30"
-                                 height="30"
+                                 width="40"
+                                 height="40"
                                  viewBox="0 0 50 50"
-                                 fill="#595959"
+                                 fill="#fff"
                                  >
                                  <path
                                     d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
@@ -343,6 +421,15 @@
                            </button>
                         </div>
                      </ul>
+                  </li>
+                  <li class="nav-item">
+                     <!-- <a class="nav-link d-flex align-items-center text-black-50 language" href="#"> -->
+                        <p class="nav-link d-flex align-items-center text-black-50" >
+                           <a class="language my-auto mr-5 active" active href="/en/">TH</a>
+                           <span class="flex items-center">|</span>
+                           <a class="language my-auto ml-5" href="/en/">EN</a>
+                        </p>
+                     <!-- </a> -->
                   </li>
                </ul>
             </div>
@@ -374,85 +461,63 @@
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
                   ></button>
-               <!-- <button
+               <button
                   type="button"
                   data-bs-target="#myCarousel"
                   data-bs-slide-to="3"
                   aria-label="Slide 4"
-                  ></button> -->
+                  ></button>
+               <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                  ></button>
             </div>
             <div class="carousel-inner">
-               <!-- <div class="carousel-item active">
-                  <div class="background position-relative">
-                    <img src="assets/head-1.png" class="img-fluid head-1" alt="" />
-                    <img src="assets/head-2.png" class="img-fluid head-2" alt="" />
-                  </div>
-                  <div class="position-absolute pt-6">
-                    <div class="container">
-                      <div class="row pt-lg-6 pt-4 ms-lg-0 ms-3">
-                        <div class="col-lg-6 d-flex flex-column">
-                          <h1 class="text-yellow-1 font-roboto mb-0 lh-1">LEADWAY</h1>
-                          <h2 class="text-white lh-1">ผู้จัดจำหน่าย</h2>
-                          <p class="text-yellow-1">
-                            รถขุดและเครื่องจักรกลหนัก
-                            <br />ที่มีประสิทธิภาพยอดเยี่ยม
-                          </p>
-                          <div class="ms-lg-5 mt-lg-4">
-                            <a href="#" class="d-flex">
-                              <div
-                                class="rounded-pill border border-5 border-yellow-1 px-lg-3 py-lg-1 px-1 py-1 d-flex align-items-center"
-                              >
-                                <p class="text-white mb-0 me-4">PRODUCTS</p>
-                                <div class="rounded-circle bg-white">
-                                  <img src="assets/cursor.svg" alt="" />
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-6"></div>
-                      </div>
-                    </div>
-                  </div>
-                  </div> -->
                <div class="carousel-item active">
                   <div class="background position-relative">
-                     <img src="assets/banner/head-1.jpg" class="img-fluid" alt="" />
+                     <img src="assets/banner/1.jpg" class="img-fluid" alt="" />
                   </div>
                </div>
                <div class="carousel-item">
                   <div class="background position-relative">
-                     <img src="assets/banner/head-2.jpg" class="img-fluid" alt="" />
+                     <img src="assets/banner/2.jpg" class="img-fluid" alt="" />
                   </div>
                </div>
                <div class="carousel-item">
                   <div class="background position-relative">
-                     <img src="assets/banner/head-3.jpg" class="img-fluid" alt="" />
+                     <img src="assets/banner/3.jpg" class="img-fluid" alt="" />
                   </div>
                </div>
-               <!-- <div class="carousel-item">
+               <div class="carousel-item">
                   <div class="background position-relative">
-                     <img src="assets/banner/head-4.jpg" class="img-fluid" alt="" />
+                     <img src="assets/banner/4.jpg" class="img-fluid" alt="" />
                   </div>
-               </div> -->
+               </div>
+               <div class="carousel-item">
+                  <div class="background position-relative">
+                     <img src="assets/banner/5.jpg" class="img-fluid" alt="" />
+                  </div>
+               </div>
             </div>
             <button
-               class="carousel-control-prev"
-               type="button"
-               data-bs-target="#myCarousel"
-               data-bs-slide="prev"
-               >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide="prev"
+                  >
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
             </button>
             <button
-               class="carousel-control-next"
-               type="button"
-               data-bs-target="#myCarousel"
-               data-bs-slide="next"
-               >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide="next"
+                  >
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
             </button>
          </div>
       </section>
@@ -460,16 +525,29 @@
       <!-- section-1 -->
       <section class="section-1">
          <div class="container mt-4 mb-5">
-            <div class="row row-cols-lg-5 row-cols-3 gy-5"  data-aos="fade-up"  data-aos-duration="3000">
-               <img src="assets/sumitomo.svg" alt="" />
-               <img src="assets/sany.svg" alt="" />
-               <img src="assets/metso.svg" alt="" />
-               <img src="assets/bomag.svg" class="ms-auto" alt="" />
-               <img src="assets/jgm.svg" class="me-auto" alt="" />
+            <div class="row row-cols-lg-5 row-cols-3 gy-5">
+               <img src="assets/logo/logo SUMITOMO-03.jpg" alt=""   data-aos="fade-right"  data-aos-duration="3000"/>
+               <img src="assets/logo/logo SANY-04.jpg" alt=""   data-aos="fade-right"  data-aos-duration="3000"/>
+               <img src="assets/logo/logo Metso-05.jpg" alt=""   data-aos="zoom-in"  data-aos-duration="3000"/>
+               <img src="assets/logo/logo JGM-07.jpg" class="ms-auto" alt=""   data-aos="fade-left"  data-aos-duration="3000"/>
+               <img src="assets/logo/logo BOMAG-06.jpg" class="me-auto" alt=""   data-aos="fade-left"  data-aos-duration="3000"/>
             </div>
+            <!-- <div class="video-container mx-auto mt-5"  data-aos="fade-up"  data-aos-duration="3000">
+               <iframe
+                  src="https://www.youtube.com/embed/n6Art1MaBhs?rel=0&autoplay=1&mute=1"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  ></iframe>
+            </div> -->
+         </div>
+      </section>
+      <section class="section-1">
+         <div class="container mt-4 mb-5">
             <div class="video-container mx-auto mt-5"  data-aos="fade-up"  data-aos-duration="3000">
                <iframe
-                  src="https://www.youtube.com/embed/n6Art1MaBhs?si=6zH9hltvizJOrHY2"
+                  src="https://www.youtube.com/embed/n6Art1MaBhs?rel=0&autoplay=1&mute=1"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -480,7 +558,7 @@
       </section>
       <!-- section-1 end-->
       <!-- section-2 -->
-      <section class="section-2 py-5"  data-aos="fade-up"  data-aos-duration="3000">
+      <!-- <section class="section-2 py-5"  data-aos="fade-up"  data-aos-duration="3000">
          <div class="container px-lg-5">
             <div class="d-flex justify-content-center align-items-center">
                <h1 class="font-roboto fw-bold text-yellow-1 head-topic">Vision</h1>
@@ -518,15 +596,15 @@
                   >
             </div>
          </div>
-      </section>
+         </section> -->
       <!-- section-2 end -->
       <!-- section-3 -->
-      <section class="section-3 container px-lg-5"  data-aos="fade-up"  data-aos-duration="3000">
+      <!-- <section class="section-3 container px-lg-5"  data-aos="fade-up"  data-aos-duration="3000">
          <div class="d-flex justify-content-center align-items-end mt-5">
-            <h1 class="font-roboto head-topic fw-bold text-yellow-1 mb-0">
+            <h2 class="font-roboto head-topic fw-bold text-yellow-1 mb-0">
                OUR PROMISE
-            </h1>
-            <h1 class="fw-normal sub-topic ps-lg-3 ps-2">(พันธสัญญา)</h1>
+            </h2>
+            <h2 class="fw-normal sub-topic ps-lg-3 ps-2">(พันธสัญญา)</h2>
          </div>
          <div class="row row-cols-lg-3 rows-cols-1 gy-5 pt-5">
             <div class="cards">
@@ -540,16 +618,16 @@
                            />
                         <img src="assets/Group 256.png" class="img-fluid" alt="" />
                      </div>
-                     <h1 class="text-white text-center">ลูกค้า</h1>
+                     <h3 class="text-white text-center">ลูกค้า</h3>
                   </div>
                   <div class="pt-3">
-                     <h2 class="fw-normal f-26 text-center">
+                     <h5 class="fw-normal f-26 text-center">
                         เรามุ่งมั่น ที่จะนำเสนอสินค้า <br />
                         และบริการ ที่ตอบโจทย์ <br />
                         ทุกความต้องการอย่างครบถ้วน <br />
                         เพื่อสรรสร้างประโยชน์ <br />
                         และความพึงพอใจต่อลูกค้า
-                     </h2>
+                     </h5>
                   </div>
                   <div class="line bg-yellow-1 py-1 px-5 mt-auto"></div>
                </div>
@@ -565,16 +643,16 @@
                            />
                         <img src="assets/Group 256.png" class="img-fluid" alt="" />
                      </div>
-                     <h1 class="text-white text-center">คู่ค้า</h1>
+                     <h3 class="text-white text-center">คู่ค้า</h3>
                   </div>
                   <div class="pt-3">
-                     <h2 class="fw-normal f-26 text-center">
+                     <h5 class="fw-normal f-26 text-center">
                         เรามีจุดมุ่งหมายจะดำเนินธุรกิจ <br />
                         กับคู่ค้าอย่างมืออาชีพและตรงไปตรงมา <br />
                         เพื่อให้ธุรกิจดำเนินไปอย่างราบรื่น <br />
                         และสามารถก้าวไปข้างหน้า <br />
                         ได้อย่างยั่งยืน
-                     </h2>
+                     </h5>
                   </div>
                   <div class="line bg-yellow-1 py-1 px-5 mt-auto"></div>
                </div>
@@ -590,85 +668,85 @@
                            />
                         <img src="assets/Group 256.png" class="img-fluid" alt="" />
                      </div>
-                     <h1 class="text-white text-center">พนักงาน</h1>
+                     <h3 class="text-white text-center">พนักงาน</h3>
                   </div>
                   <div class="pt-3">
-                     <h2 class="fw-normal f-26 text-center">
+                     <h5 class="fw-normal f-26 text-center">
                         เรามุ่งเน้นที่จะสร้างบรรยากาศ <br />
                         ที่ก่อให้เกิดความสุขในการเรียน <br />
                         รู้และปฎิบัติงานตามความเหมาะสม <br />
                         เพื่อเพิ่มความทุ่มเทในงาน <br />
                         ที่ได้รับมอบหมาย <br />
                         และผลการทำงานที่ดีเยี่ยม
-                     </h2>
+                     </h5>
                   </div>
                   <div class="line bg-yellow-1 py-1 px-5 mt-2"></div>
                </div>
             </div>
          </div>
-      </section>
+         </section> -->
       <!-- section-3 end -->
       <!-- section-4 -->
-      <section class="section-4 py-5 mt-5"  data-aos="fade-up"  data-aos-duration="3000">
+      <!-- <section class="section-4 py-5 mt-5"  data-aos="fade-up"  data-aos-duration="3000">
          <div class="container px-lg-5 px-4">
             <div class="d-flex justify-content-center align-items-end">
-               <h1 class="font-roboto fw-bold text-yellow-1 head-topic mb-0">
+               <h2 class="font-roboto fw-bold text-yellow-1 head-topic mb-0">
                   Mission
-               </h1>
-               <h1 class="fw-normal text-white sub-topic ps-3">(พันธกิจ)</h1>
+               </h2>
+               <h2 class="fw-normal text-white sub-topic ps-3">(พันธกิจ)</h2>
             </div>
             <div class="row align-items-center bg-1 mt-5 py-3">
                <div class="col-lg-3">
-                  <h2 class="fw-normal text-yellow-1">เติบโตอย่างยั่งยืน</h2>
+                  <h5 class="fw-normal text-yellow-1">เติบโตอย่างยั่งยืน</h5>
                </div>
                <div class="col-lg-9">
-                  <h3 class="fw-normal text-white">
+                  <h5 class="fw-normal text-white">
                      เราเป็นกลุ่มบริษัทที่ยึดมั่นในวิสัยทัศน์เดียวกัน
                      และรวมใจเป็นหนึ่งร่วมกับคู่ค้า
                      เพื่อประสานความสำเร็จที่ยั่งยืนร่วมกัน
-                  </h3>
+                  </h5>
                </div>
             </div>
             <div class="row align-items-center bg-1 mt-5 py-3">
                <div class="col-lg-3">
-                  <h2 class="fw-normal text-yellow-1">ทำสิ่งถูกต้อง</h2>
+                  <h5 class="fw-normal text-yellow-1">ทำสิ่งถูกต้อง</h5>
                </div>
                <div class="col-lg-9">
-                  <h3 class="fw-normal text-white">
+                  <h5 class="fw-normal text-white">
                      มีความซื่อสัตย์ ปฎิบัติตามกฎระเบียบอย่างเคร่งครัด และ
                      ยึดถือจรรยาบรรณ ทั้งด้วยคำพูดและการกระทำ
-                  </h3>
+                  </h5>
                </div>
             </div>
             <div class="row align-items-center bg-1 mt-5 py-3">
                <div class="col-lg-3">
-                  <h2 class="fw-normal text-yellow-1">กล้าคิดกล้าทำ</h2>
+                  <h5 class="fw-normal text-yellow-1">กล้าคิดกล้าทำ</h5>
                </div>
                <div class="col-lg-9">
-                  <h3 class="fw-normal text-white">
+                  <h5 class="fw-normal text-white">
                      เราคือองค์กรที่มีความคิดสร้างสรรค์ และเปิดรับแนวคิดใหม่ทางธุรกิจ
                      เรามุ่งมั่นกล้าทำด้วยความกระตือรือร้น
                      และนำเสนอทางเลือกใหม่ที่เหนือความคาดหมาย
-                  </h3>
+                  </h5>
                </div>
             </div>
             <div class="row align-items-center bg-1 mt-5 py-3">
                <div class="col-lg-3">
-                  <h2 class="fw-normal text-yellow-1">ห่วงใย..ใส่ใจอนาคต</h2>
+                  <h5 class="fw-normal text-yellow-1">ห่วงใย..ใส่ใจอนาคต</h5>
                </div>
                <div class="col-lg-9">
-                  <h3 class="fw-normal text-white">
+                  <h5 class="fw-normal text-white">
                      เรายึดมั่นการสร้างอนาคตที่สดใสเพื่อคนรุ่นต่อไป
                      เราใส่ใจพนักงานดูแลสิ่งแวดล้อม เป็นมิตรกับชุมชน
                      และเป็นองค์กรที่ดีของประเทศ
-                  </h3>
+                  </h5>
                </div>
             </div>
          </div>
-      </section>
+         </section> -->
       <!-- section-4 end -->
       <!-- section-5 -->
-      <section class="section-5"  data-aos="fade-up"  data-aos-duration="3000">
+      <!-- <section class="section-5"  data-aos="fade-up"  data-aos-duration="3000">
          <h1 class="text-center text-yellow-1 font-roboto my-5 head-topic">
             ALL PRODUCTS
          </h1>
@@ -734,16 +812,6 @@
                      <p class="text-white mb-0 text-uppercase">Mining trucks</p>
                   </div>
                </a>
-               <!-- <a href="#" class="row-3">
-                  <div class="card wheel-loader mx-auto">
-                     <img src="assets/wheel loaders.png" alt="" />
-                  </div>
-                  <div
-                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
-                     >
-                     <p class="text-white mb-0 text-uppercase">wheel loaders</p>
-                  </div>
-               </a> -->
                <a href="#" class="row-3">
                   <div class="card mx-auto spare-part">
                      <img src="assets/spare parts.png" alt="" />
@@ -756,20 +824,217 @@
                </a>
             </div>
          </div>
+         </section> -->
+      <section class="section-5">
+         <div class="proCenter_banner section_product">
+            <h1 class="text-center text-yellow-1 font-roboto pt-2 head-topic">
+               ALL PRODUCTS
+            </h1>
+            <div class="container pt-5 pb-5 z-3 position-relative">
+               <div class="row">
+                  <!-- 最后一个li 加类名li_last --> 
+                  <div class="span-8 smal-12 li01 imgZoom col-sm-6 col-md-6 col-lg-6" data-aos="fade-right"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118474.htm" class="rect-35">
+                        <img src="./assets/product/Hilight.jpg" class="_full" alt=" HIGH LIGHT"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit el">
+                                 HIGH LIGHT
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li02 imgZoom col-sm-6 col-md-3 col-lg-3" data-aos="fade-left"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/product/excavator.jpg" class="_full" alt="excavator"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit el">
+                                 EXCAVATORS
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li03 imgZoom col-sm-6 col-md-3 col-lg-3" data-aos="fade-right"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/product/Pavers.jpg" class="_full" alt="Pavers"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit el">
+                                 Pavers
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li04 imgZoom col-sm-6 col-md-3 col-lg-3" data-aos="zoom-in"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118997.htm" class="rect-72">
+                        <img src="./assets/product/Road-machinery.jpg" class="_full" alt="Road-machinery"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit el">
+                                 Road machinery
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li05 imgZoom col-sm-6 col-md-3 col-lg-3" data-aos="fade-left"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118481.htm" class="rect-72">
+                        <img src="./assets/product/concrete-mixers.jpg" class="_full" alt="concrete-mixers"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit el">
+                                 concrete mixers
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li06 imgZoom col-sm-6 col-md-3 col-lg-3" data-aos="fade-right"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118481.htm" class="rect-72">
+                        <img src="./assets/product/Mining-Trucks.jpg" class="_full" alt="Mining-Trucks"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit el">
+                                 Mining Trucks
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-8 smal-12 li07 imgZoom  col-sm-6 col-md-6 col-lg-6" data-aos="fade-left"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118474.htm" class="rect-35">
+                        <img src="./assets/product/spare-parts.jpg" class="_full" alt=" spare-parts"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit el">
+                                 spare parts
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
       </section>
       <!-- section-5 end -->
+
+      <!-- section-6 -->
+      <section class="section-5">
+         <div class="proCenter_banner news">
+            <h1 class="text-center text-yellow-1 font-roboto pt-2 head-topic">
+               News & Event
+            </h1>
+            <div class="container pt-5 pb-5 z-3 position-relative">
+               <div class="row">
+                  <!-- 最后一个li 加类名li_last --> 
+                  <div class="span-4 smal-6 li02 imgZoom col-sm-3 col-md-3 col-lg-3" data-aos="fade-right"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/news_event/News-_-Event-1.jpg" class="_full" alt="Hoisting Machinery XGC88000"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit-news">
+                                 ข่าวสารครั้งที่ 1
+                              </div>
+                              <div class="date">21 กันยายน, 2566 </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li02 imgZoom col-sm-3 col-md-3 col-lg-3" data-aos="zoom-in"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/news_event/News-_-Event-2.jpg" class="_full" alt="Hoisting Machinery XGC88000"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit-news">
+                                 ข่าวสารครั้งที่ 2
+                              </div>
+                              <div class="date">21 กันยายน, 2566 </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li02 imgZoom col-sm-3 col-md-3 col-lg-3" data-aos="fade-left"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/news_event/News-_-Event-3.jpg" class="_full" alt="Hoisting Machinery XGC88000"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit-news">
+                                 ข่าวสารครั้งที่ 3
+                              </div>
+                              <div class="date">21 กันยายน, 2566 </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li02 imgZoom col-sm-3 col-md-3 col-lg-3" data-aos="fade-right"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/news_event/News-_-Event-4.jpg" class="_full" alt="Hoisting Machinery XGC88000"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit-news">
+                                 ข่าวสารครั้งที่ 4
+                              </div>
+                              <div class="date">21 กันยายน, 2566 </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li02 imgZoom col-sm-3 col-md-3 col-lg-3" data-aos="zoom-in"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/news_event/News-_-Event-5.jpg" class="_full" alt="Hoisting Machinery XGC88000"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit-news">
+                                 ข่าวสารครั้งที่ 5
+                              </div>
+                              <div class="date">21 กันยายน, 2566 </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="span-4 smal-6 li02 imgZoom col-sm-3 col-md-3 col-lg-3" data-aos="fade-left"  data-aos-duration="3000">
+                     <a href="/en-ap/product/product-detail-118832.htm" class="rect-72">
+                        <img src="./assets/news_event/News-_-Event-6.jpg" class="_full" alt="Hoisting Machinery XGC88000"> 
+                        <div class="cover"></div>
+                        <div class="intro">
+                           <div class="box">
+                              <div class="tit-news">
+                                 ข่าวสารครั้งที่ 6
+                              </div>
+                              <div class="date">21 กันยายน, 2566 </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> 
+      <!-- section-6 end -->
       <!-- footer -->
       <footer>
-         <div class="footer-content mt-5 position-relative"  data-aos="fade-up"  data-aos-duration="3000">
-            <!-- <div class="footer-1 position-absolute d-xl-block d-none">
-               <img src="assets/footer-1.png" alt="" />
-               </div> -->
-            <!-- <div class="footer-2 position-absolute d-xl-block d-none">
-               <img src="assets/footer-2.png" alt="" />
-               </div> -->
+         <!--   mt-5  -->
+         <div class="footer-content position-relative" >
             <div class="container pt-5 pb-5 z-3 position-relative">
-               <div class="row row-cols-lg-2 align-items-start pb-5">
-                  <div class="">
+               <div class="row align-items-start pb-5">
+                  <div class="col-lg-4 col-sm-12 mb-5">
                      <img src="assets/Logo.svg" class="img-fluid" alt="" />
                      <div class="text-container pe-lg-7 mt-3">
                         <p class="text-white" style="font-size: 14px">
@@ -802,48 +1067,48 @@
                      <img class="" src="assets/facebook-1.svg" alt="" />
                      </a>
                   </div>
-                  <div class="d-flex flex-column align-items-lg-end">
-                     <a
-                        href="#"
-                        class="contact-btn position-relative mt-lg-0 mt-5 me-lg-5 ms-lg-0 ms-5"
-                        >
-                     <img
-                        src="assets/contact-button.png"
-                        class="position-absolute"
-                        alt=""
-                        />
+                  <div class="col-lg-4 col-sm-12 mb-5">
+                     <div class="text-container pe-lg-7">
+                        <!-- <div class="text-container pe-lg-7 mt-3"> -->
+                        <!-- <a
+                           href="#"
+                           class="contact-btn position-relative mt-lg-0 mt-5 me-lg-5 ms-lg-0 ms-5"
+                           > -->
+                        <span class="text-white position-relative" style="font-size: 24px">
+                        ติดตามข่าวสารและโปโมชั่นจากเรา
+                        </span>
+                        <!-- </a> -->
+                        <!-- </div> -->
+                        <div class="container py-3 send-email-boxinput">
+                           <form  method="post" action="/" id="idForm">
+                              <input type="email" placeholder="Email Address" class="send-email-input" name="email">
+                              <button class="send-email-btn align-items-center ms-3 p-2" type="submit">
+                                 <p class="fw-bold mb-0 text-212529">SUBMIT</p>
+                              </button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12 mb-5">
                      <span
                         class="text-white position-relative"
-                        style="font-size: 34px"
-                        >CONTACT</span
-                        >
-                     </a>
+                        style="font-size: 36px">CONTACT</span>
                      <div class="text-contaienr mt-4"></div>
                      <h1 class="text-yellow-1 fw-bold" style="font-size: 24px">
-                        บริษัท ลีดเวย์ แมชชีนเนอร์รี จำกัด
+                        บริษัท ลีดเวย์ เฮฟวี่ แมชชีนเนอร์รี่ จำกัด
                      </h1>
                      <h2 class="text-white ps-3" style="font-size: 14px">
                         เลขที่ 1/2 หมู่ที่ 2 ต. บางวัว อ. บางประกง จ. ฉะเชิงเทรา 24130
                      </h2>
-                     <div class="d-flex align-items-center">
-                        <img src="assets/fax-1.svg" alt="" />
-                        <h3 class="text-white mb-0 px-2" style="font-size: 14px">
-                           038 086 731-9
-                        </h3>
-                        <img src="assets/tel-3.svg" alt="" />
-                        <h3 class="text-white mb-0 ps-2" style="font-size: 14px">
-                           038 086 731-9
-                        </h3>
-                     </div>
                      <div class="d-flex mt-2">
                         <img src="assets/email-2.svg" alt="" />
                         <h3 class="text-white mb-0 ps-2" style="font-size: 14px">
-                           contact@leadwayheavy.com
+                           info@leadwayheavy.com 
                         </h3>
                      </div>
                      <div class="d-flex mt-3">
                         <img src="assets/call.svg" alt="" />
-                        <h1 class="text-yellow-1 fw-bold ms-2" style="font-size: 36px">
+                        <h1 class="text-yellow-1 fw-bold ms-2" style="font-size: 28px">
                            Call Center 1462
                         </h1>
                      </div>
@@ -852,9 +1117,15 @@
             </div>
          </div>
          <div class="container">
-            <h5 class="text-end me-3 mt-3">
+            <h6 class="text-end me-3 mt-2">
                Copyright 2022 All right reserved Leadway Heavy Machinery co., ltd.
-            </h5>
+            </h6>
+         </div>
+         <div class="alert text-center cookiealert" role="alert">
+            <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+            <button type="button" class="btn btn-sm acceptcookies bg-primary-1 primary-btn text-212529">
+            I agree
+            </button>
          </div>
       </footer>
       <!-- footer end-->
@@ -863,7 +1134,7 @@
          AOS.init();
       </script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.bundle.js"></script>
       <script>
          const myCarouselElement = document.querySelector("#myCarousel");
          
@@ -873,5 +1144,160 @@
          });
       </script>
       <script src="js/script.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script>
+         // (function () {
+         //     "use strict";
+         // })();
+         
+         $(document).ready(function () {
+            $("#idForm").submit(function(e) {
+         
+               e.preventDefault(); // avoid to execute the actual submit of the form.
+         
+               // var form = $(this);
+               // var formData = $(this).serializeArray();
+               // var option = [];
+               // /*Initializing array with Checkbox checked values*/
+               // $("input[name='option1']:checked").each(function(){
+               //       option.push(this.value);
+               // });
+               // console.log('formData',formData)
+         
+               var formData = new FormData($('#idForm')[0]);
+               var object = {
+                     "data":{}
+                  };
+               formData.forEach(function(value, key){
+                  object['data'][key] = value;
+               });
+               var json = JSON.stringify(object);
+              
+               $.ajax({
+                  type: "post",
+                  url: "https://b87b-124-120-107-156.ngrok-free.app/api/members/",
+                  data: json,
+                  headers: {
+                     "Authorization": "Bearer 3ed71ffd12614cdbef7eaeb1b9bc76216dd38b67362424d634270b1d90c4b3c9c031d508c0732e7fbe3b4118f5bacaaca4159fce20bd95e0e369322870dd2164e5406477e05a46da1567118091234e83f71d8f157f571e79859a78686a517ff0657072ad517581c5a6687208e4f98e4d4db2a4c85b246b1709a0700bbbdbfb11",
+                     "Content-Type": "application/json"
+                  },
+                  dataType: "json",
+                  contentType: false,
+                  processData: false,
+                  beforeSend: function(){
+                  },
+                  complete: function(){
+                  },
+                  success: function(res) {
+                     // console.log(res.data.id)
+                     if(res.data.id){
+                        $("#idForm")[0].reset();
+                        swal("Good job!", "We have received your information.", "success");
+                     }else{
+                        swal("Are you sure?", "Registration to receive news was unsuccessful.", "warning");
+                     }
+         
+                  },
+                  error: function(xhr, status, error) {
+                     // Handle errors (e.g., display an error message)
+                     swal("Are you sure?", "Registration to receive news was unsuccessful.", "warning");
+                     console.error(xhr.responseText);
+                  }
+               });
+         
+            });
+         
+         
+         
+             var cookieAlert = document.querySelector(".cookiealert");
+             var acceptCookies = document.querySelector(".acceptcookies");
+         
+             if (!cookieAlert) {
+               return;
+             }
+         
+             cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+         
+             // Show the alert if we cant find the "acceptCookies" cookie
+             if (!getCookie("acceptCookies")) {
+                 cookieAlert.classList.add("show");
+             }
+         
+             // When clicking on the agree button, create a 1 year
+             // cookie to remember user's choice and close the banner
+             acceptCookies.addEventListener("click", function () {
+         
+               //  cookieAlert.classList.remove("show");
+               
+               $.get('https://ipinfo.io/json?token=1b0396e7fc0b9b', function(response) {
+                  $.ajax({
+                     type: "post",
+                     url: "https://b87b-124-120-107-156.ngrok-free.app/api/accepts/",
+                     data: JSON.stringify({
+                        "data": {
+                           "count_accept": 1,
+                           "ip_accept": response.ip,
+                           "data_accept": response
+                        }
+                     }),
+                     headers: {
+                        "Authorization": "Bearer 3ed71ffd12614cdbef7eaeb1b9bc76216dd38b67362424d634270b1d90c4b3c9c031d508c0732e7fbe3b4118f5bacaaca4159fce20bd95e0e369322870dd2164e5406477e05a46da1567118091234e83f71d8f157f571e79859a78686a517ff0657072ad517581c5a6687208e4f98e4d4db2a4c85b246b1709a0700bbbdbfb11",
+                        "Content-Type": "application/json"
+                     },
+                     dataType: "json",
+                     beforeSend: function(){
+                     },
+                     complete: function(){
+                     },
+                     success: function(res) {
+                       setCookie("acceptCookies", true, 365);
+                       cookieAlert.classList.remove("show");
+         
+                       // dispatch the accept event
+                       window.dispatchEvent(new Event("cookieAlertAccept"))
+         
+                     }
+                  });
+         
+                  console.log(response.ip);
+               }, "jsonp");
+         
+         
+             });
+         
+             // Cookie functions from w3schools
+             function setCookie(cname, cvalue, exdays) {
+                 var d = new Date();
+                 d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                 var expires = "expires=" + d.toUTCString();
+                 document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+             }
+         
+             function getCookie(cname) {
+                 var name = cname + "=";
+                 var decodedCookie = decodeURIComponent(document.cookie);
+                 var ca = decodedCookie.split(';');
+                 for (var i = 0; i < ca.length; i++) {
+                     var c = ca[i];
+                     while (c.charAt(0) === ' ') {
+                         c = c.substring(1);
+                     }
+                     if (c.indexOf(name) === 0) {
+                         return c.substring(name.length, c.length);
+                     }
+                 }
+                 return "";
+             }
+             
+           $(".category a").hover(
+             function () {
+               $("a.active").removeClass("active");
+             },
+             function () {
+               $(".wine a").addClass("active");
+             }
+           );
+         });
+      </script>
    </body>
 </html>

@@ -1,0 +1,409 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-os {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.head-topic {
+  font-size: 95px;
+}
+
+.sub-topic {
+  font-size: 58px;
+}
+
+.header-bg {
+  background-color: #070065;
+}
+
+.bg-1 {
+  background-color: rgba(0, 0, 0, 30%);
+}
+
+/**********************************/
+/************  NAVBAR  ************/
+/**********************************/
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  top: 73px;
+  padding: 0 15px;
+  border-radius: 0;
+  background-color: #e5e8ed;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .line {
+  position: absolute;
+  background-color: #ffbe2c;
+  width: 50%;
+  height: 8px;
+  top: -8px;
+  left: 0;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+  padding: 10px 50px 10px 0px;
+  border-bottom: 1.5px solid #fff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #e5e8ed;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover span {
+  color: #ffbe2c !important;
+}
+/***********************************/
+/************ HEADER ***************/
+/**********************************/
+.header .background {
+  height: auto;
+}
+.header .background .head-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.header .background .head-2 {
+  position: absolute;
+  width: 45vw;
+  right: 25px;
+  z-index: -1;
+}
+.header h1 {
+  font-size: 118px;
+  text-shadow: 4px 4px 5px black;
+}
+
+.header h2 {
+  font-size: 78px;
+  text-shadow: 4px 4px 5px black;
+}
+
+.header p {
+  font-size: 28px;
+  text-shadow: 4px 4px 5px black;
+}
+
+.header .position-absolute {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header .rounded-circle.bg-white {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .rounded-circle.bg-white img {
+  width: 25px;
+  height: 25px;
+}
+.header .rounded-pill {
+  background: linear-gradient(to top, #ffbe2c, #eb9d10, #e08b00);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .rounded-pill p {
+  text-shadow: none !important;
+}
+
+/***********************************/
+/************ SECTION-1 ************/
+/**********************************/
+.video-container {
+  position: relative;
+  width: 80%;
+  padding-bottom: 40.5%;
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/***********************************/
+/************ SECTION-2 ************/
+/**********************************/
+.section-2 h3 {
+  font-size: 28px;
+}
+.section-2,
+.section-4 {
+  background-image: url(../assets/Web\ LeadWay\ 2\ middle\ 1-02.png);
+}
+
+.section-2 h3 span {
+  font-size: 32px;
+}
+
+/***********************************/
+/************ SECTION-3 ************/
+/**********************************/
+.section-3 h2,
+.section-4 h3 {
+  font-size: 26px;
+}
+
+/***********************************/
+/************ SECTION-3 ************/
+/**********************************/
+
+.section-4 h2 {
+  font-size: 40px;
+}
+
+/***********************************/
+/************ section-5 ************/
+/**********************************/
+
+.card {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 !important;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: -25px;
+  left: -25px;
+  height: 350px;
+  width: 350px;
+  filter: blur(1px);
+  opacity: 0.3;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1),
+    inset 0 0 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  position: absolute;
+  z-index: 10;
+  top: -35px;
+  left: -35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-5 .rounded-pill {
+  width: 175px;
+  background: linear-gradient(to top, #ffbe2c, #eb9d10, #e08b00);
+  border-color: #ffae16 !important;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.section-5 a:hover .rounded-pill {
+  transform: translateY(15px);
+}
+
+.section-5 a:hover img {
+  transform: scale(1.15) translateY(-15px);
+}
+
+.section-5 .rounded-pill p {
+  font-size: 20px;
+}
+
+.section-5 .row-2 img {
+  top: auto;
+  bottom: -35px;
+}
+
+.section-5 .row-2 .rounded-pill p {
+  font-size: 18px;
+}
+
+.section-5 .congrete img {
+  left: -50px;
+}
+
+.section-5 .wheel-loader img {
+  top: auto;
+  bottom: 0;
+  width: 125%;
+}
+.section-5 .spare-part img {
+  top: 10%;
+  left: 0;
+  width: 100%;
+}
+/**********************************/
+/************  Footer  ************/
+/**********************************/
+.footer-content {
+  background-image: url(../assets/Web\ LeadWay\ 2\ middle\ 1-02.png);
+}
+
+.footer-bg-component {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-1 {
+  bottom: -40%;
+  left: -10%;
+  z-index: 1;
+}
+.footer-1 img {
+  width: 50vw;
+}
+.footer-2 {
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+.contact-btn img {
+  z-index: 0;
+  top: -30px;
+  left: -50px;
+}
+.footer h5 {
+  font-size: 22px;
+}
+@media (max-width: 992px) {
+  .head-topic {
+    font-size: calc(5px + 10vw);
+  }
+  .sub-topic {
+    font-size: calc(8px + 5vw);
+  }
+  /**********************************/
+  /************  NAVBAR  ************/
+  /**********************************/
+  .navbar-expand-lg .navbar-nav .dropdown-menu .line {
+    top: 35px;
+
+    left: 0;
+  }
+
+  .navbar-brand img {
+    width: 75%;
+  }
+  /***********************************/
+  /************ HEADER ***************/
+  /**********************************/
+  .header h1 {
+    font-size: calc(8px + 10vw);
+  }
+
+  .header h2 {
+    font-size: calc(8px + 5.5vw);
+  }
+
+  .header p {
+    font-size: calc(8px + 2vw);
+  }
+
+  .header .rounded-circle.bg-white {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header .rounded-circle.bg-white img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /***********************************/
+  /************ SECTION-1 ************/
+  /**********************************/
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+  }
+  /***********************************/
+  /************ section-2 ************/
+  /**********************************/
+
+  .section-2 h3 {
+    font-size: calc(8px + 1.5vw);
+  }
+
+  .section-2 h3 span {
+    font-size: calc(4px + 2.5vw);
+  }
+  /***********************************/
+  /************ section-3 ************/
+  /**********************************/
+
+  .section-3 .head-topic {
+    font-size: calc(5px + 8vw);
+  }
+  .section-3 .sub-topic {
+    font-size: calc(8px + 5vw);
+  }
+  .section-3 h2,
+  .section-4 h3 {
+    font-size: calc(6px + 3vw);
+  }
+
+  /***********************************/
+  /************ footer ************/
+  /**********************************/
+  .footer h5 {
+    font-size: calc(2 + 3vw);
+  }
+}
+
+@media (max-width: 576px) {
+  /***********************************/
+  /************ section-5 ************/
+  /**********************************/
+
+  .card {
+    position: relative;
+    height: 275px;
+    width: 275px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .card::after {
+    position: absolute;
+    content: "";
+    top: -5%;
+    left: -5%;
+    height: 110%;
+    width: 110%;
+    opacity: 0.1;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1),
+      inset 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  }
+  .card img {
+    width: 325px;
+  }
+
+  /***********************************/
+  /************ section-3 ************/
+  /**********************************/
+
+  .section-3 h2 {
+    font-size: calc(6px + 4vw);
+  }
+  .section-3 .head-topic {
+    font-size: calc(5px + 6vw);
+  }
+  .section-3 .sub-topic {
+    font-size: calc(8px + 3vw);
+  }
+}

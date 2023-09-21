@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="th">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Leadway</title>
+      <link rel="stylesheet" href="scss/custom.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Open+Sans:wght@300&family=Roboto:wght@700&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   </head>
+   <body>
+      <div class="header-bg py-3 d-none">
+         <div class="container">
+            <div
+               class="row row-cols-lg-2 row-cols-1 align-items-center justify-content-lg-between"
+               >
+               <div class="d-lg-flex d-none align-items-center">
+                  <img class="img-fluid m-0" src="assets/tel-2.svg" alt="" />
+                  <h1
+                     class="font-os f-15 text-white pt-2 ps-2"
+                     style="font-size: 15px"
+                     >
+                     LEADWAY CALL CENTER 1462
+                  </h1>
+               </div>
+               <div class="d-sm-flex align-items-center justify-content-lg-end">
+                  <div class="d-sm-block d-flex my-sm-0 mb-3">
+                     <div class="rounded-pill bg-white px-2 me-3">
+                        <input type="text" class="border-0" />
+                        <img src="assets/search.svg" alt="" />
+                     </div>
+                  </div>
+                  <a href="#">
+                  <img class="pe-3" src="assets/tel-1.svg" alt="" />
+                  </a>
+                  <a href="#">
+                  <img class="pe-3" src="assets/email-1.svg" alt="" />
+                  </a>
+                  <a href="#">
+                  <img class="pe-3" src="assets/youtube-1.svg" alt="" />
+                  </a>
+                  <a href="#">
+                  <img class="pe-3" src="assets/location-1.svg" alt="" />
+                  </a>
+                  <a href="#">
+                  <img class="pe-3" src="assets/line-1.svg" alt="" />
+                  </a>
+                  <a href="#">
+                  <img class="" src="assets/facebook-1.svg" alt="" />
+                  </a>
+               </div>
+               <div class="d-flex d-lg-none mt-2 align-items-center">
+                  <img class="img-fluid m-0" src="assets/tel-2.svg" alt="" />
+                  <h5 class="font-os text-white pt-2 ps-2" style="font-size: 15px">
+                     LEADWAY CALL CENTER 1462
+                  </h5>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Contact Button -->
+      <button class="fixed bottom-[20px] right-[1%] z-20 chat-button">
+         <div class="absolute bottom-[100%] w-full chat-list">
+           <a href="#"><img src="./assets/icons/facebook-messenger-circle-blue-logo-16641.svg" alt=""></a>
+           <!-- <a href="https://bit.ly/3sKOTOG"><img src="./assets/icons/instagram-chat.svg" alt=""></a> -->
+           <a href="#"><img src="./assets/icons/line-chat.svg" alt=""></a>
+           <!-- <a href="https://bit.ly/3sGoCRU"><img src="./assets/icons/myshop-chat.svg" alt=""></a>
+           <a href="https://bit.ly/3BoC5S0"><img src="./assets/icons/shopee-chat.svg" alt=""></a>
+           <a href="https://bit.ly/3UEPWfr"><img src="./assets/icons/lazada-chat.svg" alt=""></a> -->
+           <a href="tel:0999999999"><img src="./assets/icons/phone-chat.svg" alt=""></a>
+         </div>
+         <h2 class="chat-button-text text-[1.4rem] font-medium text-white absolute left-[18%] top-[20%]">ติดต่อ</h2>
+         <div class="dot absolute left-[25%] top-[35%] flex">
+           <div class=""></div>
+           <div class="mx-2"></div>
+           <div class=""></div>
+         </div>
+         <img src="./assets/icons/chat.svg" alt="" class="w-[100px]">
+       </button>
+
+      <!-- navbar -->
+      <nav
+         class="navbar navbar-expand-lg pt-3 pb-lg-2 pb-0 font-roboto fw-bold text-uppercase position-fixed sticky-top w-100"
+         >
+         <div class="container">
+            <a class="navbar-brand" href="#"
+               ><img src="assets/Logo.svg" class="img-fluid" alt=""
+               /></a>
+            <div class="d-flex mx-3 gap-3">
+               <div class="dropdown d-lg-none d-block">
+                  <a
+                     class="d-flex align-items-center text-white"
+                     href="#"
+                     data-bs-toggle="dropdown"
+                     >
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="40"
+                        height="40"
+                        viewBox="0 0 50 50"
+                        fill="#fff"
+                        >
+                        <path
+                           d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                           ></path>
+                     </svg>
+                  </a>
+                  <ul class="dropdown-menu" id="searchMenuSmall">
+                     <div class="container d-flex py-5">
+                        <input
+                           type="text"
+                           placeholder="what are you looking for?"
+                           class="search-input"
+                           />
+                        <button class="search-btn d-flex align-items-center p-3">
+                           <p class="fw-bold mb-0 me-3">Search</p>
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              x="0px"
+                              y="0px"
+                              width="40"
+                              height="40"
+                              viewBox="0 0 50 50"
+                              fill="#fff"
+                              >
+                              <path
+                                 d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                                 ></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </ul>
+               </div>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  >
+               <span class="navbar-toggler-icon"></span>
+               </button>
+            </div>
+            <div
+               class="collapse navbar-collapse flex-grow-1"
+               id="navbarNavDropdown"
+               >
+               <ul
+                  class="navbar-nav d-flex justify-content-between w-100 ps-lg-7 pt-lg-0 pt-3"
+                  >
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link d-flex align-items-center text-white"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        >
+                        <p class="mb-0 me-1">Home</p>
+                     </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link d-flex align-items-center text-white"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        >
+                        <p class="mb-0 me-1">Product & service</p>
+                        <img src="assets/dropdown.svg" alt="" />
+                     </a>
+                     <ul class="dropdown-menu">
+                        <div class="container d-lg-block d-none py-5">
+                           <div class="row row-cols-3 align-items-center">
+                              <div class="col head d-lg-block d-none">
+                                 <a href="#"
+                                    >
+                                    <h1 class="text-white head fw-bold">
+                                       Product <br />
+                                       & Service
+                                    </h1>
+                                 </a>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                    <li><a href="#">Example-4</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-1</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-2</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link d-flex align-items-center text-white"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        >
+                        <p class="mb-0 me-1">Promotion</p>
+                        <img src="assets/dropdown.svg" alt="" />
+                     </a>
+                     <ul class="dropdown-menu">
+                        <div class="container d-lg-block d-none py-5">
+                           <div class="row row-cols-3 align-items-center">
+                              <div class="col head d-lg-block d-none">
+                                 <a href="#"
+                                    >
+                                    <h1 class="text-white head fw-bold">Promotion</h1>
+                                 </a>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-1</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-2</a></li>
+                        </div>
+                     </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link d-flex align-items-center text-white"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        >
+                        <p class="mb-0 me-1">New & service</p>
+                        <img src="assets/dropdown.svg" alt="" />
+                     </a>
+                     <ul class="dropdown-menu">
+                        <div class="container d-lg-block d-none py-5">
+                           <div class="row row-cols-4 align-items-center">
+                              <div class="col head d-lg-block d-none">
+                                 <a href="#"
+                                    >
+                                    <h1 class="text-white head fw-bold">
+                                       New <br />
+                                       & Service
+                                    </h1>
+                                 </a>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                    <li><a href="#">Example-4</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                    <li><a href="#">Example-4</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-1</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-2</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-3</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-4</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link d-flex align-items-center text-white"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        >
+                        <p class="mb-0 me-1">Tips & Tricks</p>
+                        <img src="assets/dropdown.svg" alt="" />
+                     </a>
+                     <ul class="dropdown-menu">
+                        <div class="container d-lg-block d-none py-5">
+                           <div class="row row-cols-4 align-items-center">
+                              <div class="col head d-lg-block d-none">
+                                 <a href="#"
+                                    >
+                                    <h1 class="text-white head fw-bold">
+                                       Tips <br />
+                                       & Tricks
+                                    </h1>
+                                 </a>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                    <li><a href="#">Example-4</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                 </ul>
+                              </div>
+                              <div class="col">
+                                 <ul>
+                                    <li><a href="#">Example-1</a></li>
+                                    <li><a href="#">Example-2</a></li>
+                                    <li><a href="#">Example-3</a></li>
+                                    <li><a href="#">Example-4</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-1</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-2</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-3</a></li>
+                        </div>
+                        <div class="dropdown-item d-lg-none">
+                           <li><a href="#" class="nav-link ps-1 py-0">Example-4</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link d-flex align-items-center text-white" href="#">
+                        <p class="mb-0 me-1">Contact</p>
+                     </a>
+                  </li>
+                  <li class="dropdown d-lg-block d-none">
+                     <a
+                        class="d-flex align-items-center text-white"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           x="0px"
+                           y="0px"
+                           width="40"
+                           height="40"
+                           viewBox="0 0 50 50"
+                           fill="#fff"
+                           >
+                           <path
+                              d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                              ></path>
+                        </svg>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <div class="container d-lg-flex d-none py-5">
+                           <input
+                              type="text"
+                              placeholder="what are you looking for?"
+                              class="search-input"
+                              />
+                           <button class="search-btn d-flex align-items-center ms-5 p-3">
+                              <p class="fw-bold mb-0 me-3">Search</p>
+                              <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 x="0px"
+                                 y="0px"
+                                 width="40"
+                                 height="40"
+                                 viewBox="0 0 50 50"
+                                 fill="#fff"
+                                 >
+                                 <path
+                                    d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                                    ></path>
+                              </svg>
+                           </button>
+                        </div>
+                     </ul>
+                  </li>
+                  
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- navbar end-->
+      <!-- header-->
+      <section class="header position-relative">
+         <div id="myCarousel" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+               <!-- <div class="carousel-indicators"> -->
+               <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                  ></button>
+               <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  ></button>
+               <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                  ></button>
+               <!-- <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                  ></button> -->
+            </div>
+            <div class="carousel-inner">
+               <!-- <div class="carousel-item active">
+                  <div class="background position-relative">
+                    <img src="assets/head-1.png" class="img-fluid head-1" alt="" />
+                    <img src="assets/head-2.png" class="img-fluid head-2" alt="" />
+                  </div>
+                  <div class="position-absolute pt-6">
+                    <div class="container">
+                      <div class="row pt-lg-6 pt-4 ms-lg-0 ms-3">
+                        <div class="col-lg-6 d-flex flex-column">
+                          <h1 class="text-yellow-1 font-roboto mb-0 lh-1">LEADWAY</h1>
+                          <h2 class="text-white lh-1">ผู้จัดจำหน่าย</h2>
+                          <p class="text-yellow-1">
+                            รถขุดและเครื่องจักรกลหนัก
+                            <br />ที่มีประสิทธิภาพยอดเยี่ยม
+                          </p>
+                          <div class="ms-lg-5 mt-lg-4">
+                            <a href="#" class="d-flex">
+                              <div
+                                class="rounded-pill border border-5 border-yellow-1 px-lg-3 py-lg-1 px-1 py-1 d-flex align-items-center"
+                              >
+                                <p class="text-white mb-0 me-4">PRODUCTS</p>
+                                <div class="rounded-circle bg-white">
+                                  <img src="assets/cursor.svg" alt="" />
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-6"></div>
+                      </div>
+                    </div>
+                  </div>
+                  </div> -->
+               <div class="carousel-item active">
+                  <div class="background position-relative">
+                     <img src="assets/banner/head-1.jpg" class="img-fluid" alt="" />
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="background position-relative">
+                     <img src="assets/banner/head-2.jpg" class="img-fluid" alt="" />
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="background position-relative">
+                     <img src="assets/banner/head-3.jpg" class="img-fluid" alt="" />
+                  </div>
+               </div>
+               <!-- <div class="carousel-item">
+                  <div class="background position-relative">
+                     <img src="assets/banner/head-4.jpg" class="img-fluid" alt="" />
+                  </div>
+                  </div> -->
+            </div>
+            <button
+               class="carousel-control-prev"
+               type="button"
+               data-bs-target="#myCarousel"
+               data-bs-slide="prev"
+               >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+               class="carousel-control-next"
+               type="button"
+               data-bs-target="#myCarousel"
+               data-bs-slide="next"
+               >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </section>
+      <!-- header end-->
+      <!-- section-1 -->
+      <section class="section-1">
+         <div class="container mt-4 mb-5">
+            <div class="row row-cols-lg-5 row-cols-3 gy-5"  data-aos="fade-up"  data-aos-duration="3000">
+               <img src="assets/sumitomo.svg" alt="" />
+               <img src="assets/sany.svg" alt="" />
+               <img src="assets/metso.svg" alt="" />
+               <img src="assets/bomag.svg" class="ms-auto" alt="" />
+               <img src="assets/jgm.svg" class="me-auto" alt="" />
+            </div>
+            <div class="video-container mx-auto mt-5"  data-aos="fade-up"  data-aos-duration="3000">
+               <iframe
+                  src="https://www.youtube.com/embed/n6Art1MaBhs?rel=0&autoplay=1&mute=1"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  ></iframe>
+            </div>
+         </div>
+      </section>
+      <!-- section-1 end-->
+      <!-- section-2 -->
+      <!-- <section class="section-2 py-5"  data-aos="fade-up"  data-aos-duration="3000">
+         <div class="container px-lg-5">
+            <div class="d-flex justify-content-center align-items-center">
+               <h1 class="font-roboto fw-bold text-yellow-1 head-topic">Vision</h1>
+               <h2 class="text-white fw-normal pt-3 ps-3 sub-topic">(วิสัยทัศน์)</h2>
+            </div>
+            <div class="bg-1 position-relative py-6">
+               <span
+                  class="fw-bold text-white position-absolute"
+                  style="font-size: 80px; left: 15.5%; top: 25px"
+                  >
+               "
+               </span>
+               <h3 class="text-white fw-normal text-center">
+                  <br />
+                  <span class="fw-bold">
+                  เราจะก้าวขึ้นเป็นหนึ่งในผู้นำตลาดเครื่องจักรกลหลักในประเทศไทย
+                  </span>
+                  <br />
+                  ด้วยการนำเสนอ
+                  <span class="text-yellow-1">BEST SOLUTION</span>
+                  ที่สอดคล้อง และสร้างกำไรให้แก่ลูกค้า
+                  <br class="d-md-block d-none" />
+                  จากคุณภาพของเครื่องจักร และประสิทธิภาพของการบริการที่ดีที่สุด
+                  <br class="d-md-block d-none" />
+                  และด้วยความมุ่งมั่นที่จะเป็นผู้ให้บริการแบบ
+                  <span class="text-yellow-1">"ONE STOP SERVICE"</span>
+                  <br class="d-md-block d-none" />
+                  เพื่อตอบสนองทุกความต้องการและส่งมอบความพึงพอใจอย่างสูงสุด
+                  <br class="d-md-block d-none" />
+               </h3>
+               <span
+                  class="fw-bold text-white position-absolute"
+                  style="font-size: 80px; right: 15.5%; bottom: -15px"
+                  >"</span
+                  >
+            </div>
+         </div>
+      </section> -->
+      <!-- section-2 end -->
+      <!-- section-3 -->
+      <section class="section-3 container px-lg-5"  data-aos="fade-up"  data-aos-duration="3000">
+         <div class="d-flex justify-content-center align-items-end mt-5">
+            <h2 class="font-roboto head-topic fw-bold text-yellow-1 mb-0">
+               OUR PROMISE
+            </h2>
+            <h2 class="fw-normal sub-topic ps-lg-3 ps-2">(พันธสัญญา)</h2>
+         </div>
+         <div class="row row-cols-lg-3 rows-cols-1 gy-5 pt-5">
+            <div class="cards">
+               <div class="d-flex flex-column align-items-center h-100">
+                  <div class="bg-black">
+                     <div class="img-container position-relative d-flex">
+                        <img
+                           src="assets/Group 3487.svg"
+                           class="position-absolute overlay img-fluid"
+                           alt=""
+                           />
+                        <img src="assets/Group 256.png" class="img-fluid" alt="" />
+                     </div>
+                     <h3 class="text-white text-center">ลูกค้า</h3>
+                  </div>
+                  <div class="pt-3">
+                     <h4 class="fw-normal f-26 text-center">
+                        เรามุ่งมั่น ที่จะนำเสนอสินค้า <br />
+                        และบริการ ที่ตอบโจทย์ <br />
+                        ทุกความต้องการอย่างครบถ้วน <br />
+                        เพื่อสรรสร้างประโยชน์ <br />
+                        และความพึงพอใจต่อลูกค้า
+                     </h4>
+                  </div>
+                  <div class="line bg-yellow-1 py-1 px-5 mt-auto"></div>
+               </div>
+            </div>
+            <div class="cards">
+               <div class="d-flex flex-column align-items-center h-100">
+                  <div class="bg-black">
+                     <div class="img-container position-relative d-flex">
+                        <img
+                           src="assets/Group 3487.svg"
+                           class="position-absolute overlay img-fluid"
+                           alt=""
+                           />
+                        <img src="assets/Group 256.png" class="img-fluid" alt="" />
+                     </div>
+                     <h3 class="text-white text-center">คู่ค้า</h3>
+                  </div>
+                  <div class="pt-3">
+                     <h4 class="fw-normal f-26 text-center">
+                        เรามีจุดมุ่งหมายจะดำเนินธุรกิจ <br />
+                        กับคู่ค้าอย่างมืออาชีพและตรงไปตรงมา <br />
+                        เพื่อให้ธุรกิจดำเนินไปอย่างราบรื่น <br />
+                        และสามารถก้าวไปข้างหน้า <br />
+                        ได้อย่างยั่งยืน
+                     </h4>
+                  </div>
+                  <div class="line bg-yellow-1 py-1 px-5 mt-auto"></div>
+               </div>
+            </div>
+            <div class="cards">
+               <div class="d-flex flex-column align-items-center h-100">
+                  <div class="bg-black">
+                     <div class="img-container position-relative d-flex">
+                        <img
+                           src="assets/Group 3488.svg"
+                           class="position-absolute overlay img-fluid"
+                           alt=""
+                           />
+                        <img src="assets/Group 256.png" class="img-fluid" alt="" />
+                     </div>
+                     <h class="text-white text-center">พนักงาน</h>
+                  </div>
+                  <div class="pt-3">
+                     <h2 class="fw-normal f-26 text-center">
+                        เรามุ่งเน้นที่จะสร้างบรรยากาศ <br />
+                        ที่ก่อให้เกิดความสุขในการเรียน <br />
+                        รู้และปฎิบัติงานตามความเหมาะสม <br />
+                        เพื่อเพิ่มความทุ่มเทในงาน <br />
+                        ที่ได้รับมอบหมาย <br />
+                        และผลการทำงานที่ดีเยี่ยม
+                     </h2>
+                  </div>
+                  <div class="line bg-yellow-1 py-1 px-5 mt-2"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- section-3 end -->
+      <!-- section-4 -->
+      <section class="section-4 py-5 mt-5"  data-aos="fade-up"  data-aos-duration="3000">
+         <div class="container px-lg-5 px-4">
+            <div class="d-flex justify-content-center align-items-end">
+               <h2 class="font-roboto fw-bold text-yellow-1 head-topic mb-0">
+                  Mission
+               </h2>
+               <h2 class="fw-normal text-white sub-topic ps-3">(พันธกิจ)</h2>
+            </div>
+            <div class="row align-items-center bg-1 mt-5 py-3">
+               <div class="col-lg-3">
+                  <h4 class="fw-normal text-yellow-1">เติบโตอย่างยั่งยืน</h4>
+               </div>
+               <div class="col-lg-9">
+                  <h4 class="fw-normal text-white">
+                     เราเป็นกลุ่มบริษัทที่ยึดมั่นในวิสัยทัศน์เดียวกัน
+                     และรวมใจเป็นหนึ่งร่วมกับคู่ค้า
+                     เพื่อประสานความสำเร็จที่ยั่งยืนร่วมกัน
+                  </h4>
+               </div>
+            </div>
+            <div class="row align-items-center bg-1 mt-5 py-3">
+               <div class="col-lg-3">
+                  <h4 class="fw-normal text-yellow-1">ทำสิ่งถูกต้อง</h4>
+               </div>
+               <div class="col-lg-9">
+                  <h4 class="fw-normal text-white">
+                     มีความซื่อสัตย์ ปฎิบัติตามกฎระเบียบอย่างเคร่งครัด และ
+                     ยึดถือจรรยาบรรณ ทั้งด้วยคำพูดและการกระทำ
+                  </h4>
+               </div>
+            </div>
+            <div class="row align-items-center bg-1 mt-5 py-3">
+               <div class="col-lg-3">
+                  <h4 class="fw-normal text-yellow-1">กล้าคิดกล้าทำ</h4>
+               </div>
+               <div class="col-lg-9">
+                  <h4 class="fw-normal text-white">
+                     เราคือองค์กรที่มีความคิดสร้างสรรค์ และเปิดรับแนวคิดใหม่ทางธุรกิจ
+                     เรามุ่งมั่นกล้าทำด้วยความกระตือรือร้น
+                     และนำเสนอทางเลือกใหม่ที่เหนือความคาดหมาย
+                  </h4>
+               </div>
+            </div>
+            <div class="row align-items-center bg-1 mt-5 py-3">
+               <div class="col-lg-3">
+                  <h4 class="fw-normal text-yellow-1">ห่วงใย..ใส่ใจอนาคต</h4>
+               </div>
+               <div class="col-lg-9">
+                  <h4 class="fw-normal text-white">
+                     เรายึดมั่นการสร้างอนาคตที่สดใสเพื่อคนรุ่นต่อไป
+                     เราใส่ใจพนักงานดูแลสิ่งแวดล้อม เป็นมิตรกับชุมชน
+                     และเป็นองค์กรที่ดีของประเทศ
+                  </h4>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- section-4 end -->
+      <!-- section-5 -->
+      <section class="section-5"  data-aos="fade-up"  data-aos-duration="3000">
+         <h1 class="text-center text-yellow-1 font-roboto my-5 head-topic">
+            ALL PRODUCTS
+         </h1>
+         <div class="container">
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 gy-7">
+               <a href="#">
+                  <div class="card mx-auto">
+                     <img src="assets/highlight.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
+                     >
+                     <p class="text-white mb-0 text-uppercase">highlight</p>
+                  </div>
+               </a>
+               <a href="#">
+                  <div class="card mx-auto">
+                     <img src="assets/excavators.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
+                     >
+                     <p class="text-white mb-0 text-uppercase">excavators</p>
+                  </div>
+               </a>
+               <a href="#">
+                  <div class="card mx-auto">
+                     <img src="assets/pavers.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
+                     >
+                     <p class="text-white mb-0 text-uppercase">pavers</p>
+                  </div>
+               </a>
+               <a href="#" class="row-2">
+                  <div class="card mx-auto">
+                     <img src="assets/road_machinery.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7 fs-1"
+                     >
+                     <p class="text-white mb-0 text-uppercase">road machinery</p>
+                  </div>
+               </a>
+               <a href="#" class="row-2 congrete">
+                  <div class="card mx-auto">
+                     <img src="assets/congrete_mixer.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
+                     >
+                     <p class="text-white mb-0 text-uppercase">congrete mixers</p>
+                  </div>
+               </a>
+               <a href="#" class="row-2">
+                  <div class="card mx-auto">
+                     <img src="assets/mining_truck.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
+                     >
+                     <p class="text-white mb-0 text-uppercase">Mining trucks</p>
+                  </div>
+               </a>
+               <!-- <a href="#" class="row-3">
+                  <div class="card wheel-loader mx-auto">
+                     <img src="assets/wheel loaders.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
+                     >
+                     <p class="text-white mb-0 text-uppercase">wheel loaders</p>
+                  </div>
+                  </a> -->
+               <a href="#" class="row-3">
+                  <div class="card mx-auto spare-part">
+                     <img src="assets/spare parts.png" alt="" />
+                  </div>
+                  <div
+                     class="rounded-pill border border-5 py-1 text-center mx-auto mt-7"
+                     >
+                     <p class="text-white mb-0 text-uppercase">spare part</p>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </section>
+      <!-- section-5 end -->
+      <!-- footer -->
+      <footer>
+         <div class="footer-content mt-5 position-relative"  data-aos="fade-up"  data-aos-duration="3000">
+            <!-- <div class="footer-1 position-absolute d-xl-block d-none">
+               <img src="assets/footer-1.png" alt="" />
+               </div> -->
+            <!-- <div class="footer-2 position-absolute d-xl-block d-none">
+               <img src="assets/footer-2.png" alt="" />
+               </div> -->
+            <div class="container pt-5 pb-5 z-3 position-relative">
+               <div class="row align-items-start pb-5">
+                  <div class="col-4">
+                     <img src="assets/Logo.svg" class="img-fluid" alt="" />
+                     <div class="text-container pe-lg-7 mt-3">
+                        <p class="text-white" style="font-size: 14px">
+                           บริษัท ลีดเวย์ เฮฟวี แมชชีนเนอร์รี จำกัด
+                           เราพัฒนาศักยภาพอย่างรอบด้านเพื่อขยายกลุ่มผลิตภัณฑ์
+                           เครื่องจักรกลหนักให้มีความหลากหลาย
+                           โดยรักษาสมดุลระหว่างเทคโนโลยี ประสิทธิภาพ และความคุ้มค่า
+                           เพื่อตอบโจทย์ให้ครอบคลุมต่อทุกการใช้งาน
+                           ในการสร้างผลกำไรให้แก่ธุรกิจ
+                           อีกทั้งยังก้าวข้ามข้อจำกัดการใช้งานเครื่องจักรกลในรูปแบบเดิมๆ
+                           ในฐานะผู้จัดจำหน่ายเครื่องจักรกลหนักของประเทศไทย
+                        </p>
+                     </div>
+                     <a href="#">
+                     <img class="pe-3" src="assets/tel-1.svg" alt="" />
+                     </a>
+                     <a href="#">
+                     <img class="pe-3" src="assets/email-1.svg" alt="" />
+                     </a>
+                     <a href="#">
+                     <img class="pe-3" src="assets/youtube-1.svg" alt="" />
+                     </a>
+                     <a href="#">
+                     <img class="pe-3" src="assets/location-1.svg" alt="" />
+                     </a>
+                     <a href="#">
+                     <img class="pe-3" src="assets/line-1.svg" alt="" />
+                     </a>
+                     <a href="#">
+                     <img class="" src="assets/facebook-1.svg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-4">
+                     <div class="text-container pe-lg-7">
+                        <!-- <div class="text-container pe-lg-7 mt-3"> -->
+                           <!-- <a
+                           href="#"
+                           class="contact-btn position-relative mt-lg-0 mt-5 me-lg-5 ms-lg-0 ms-5"
+                           > -->
+                        <span
+                           class="text-white position-relative"
+                           style="font-size: 24px"
+                           >ติดตามข่าวสารและโปโมชั่นจากเรา</span
+                           >
+                        <!-- </a> -->
+                        <!-- </div> -->
+                        <div class="container d-lg-flex d-none py-5">
+                           <input type="text" placeholder="Email Address" class="send-email-input">
+                           <button class="send-email-btn d-flex align-items-center ms-3 p-2">
+                              <p class="fw-bold mb-0 text-white">SUBMIT</p>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-4">
+                     <!-- <a
+                        href="#"
+                        class="contact-btn position-relative mt-lg-0 mt-5 me-lg-5 ms-lg-0 ms-5"
+                        > -->
+                     <!-- <img
+                        src="assets/contact-button.png"
+                        class="position-absolute"
+                        alt=""
+                        /> -->
+                     <span
+                        class="text-white position-relative"
+                        style="font-size: 26px"
+                        >CONTACT</span
+                        >
+                     <!-- </a> -->
+                     <div class="text-contaienr mt-4"></div>
+                     <h1 class="text-yellow-1 fw-bold" style="font-size: 24px">
+                        บริษัท ลีดเวย์ เฮฟวี่ แมชชีนเนอร์รี่ จำกัด
+                     </h1>
+                     <h2 class="text-white ps-3" style="font-size: 14px">
+                        เลขที่ 1/2 หมู่ที่ 2 ต. บางวัว อ. บางประกง จ. ฉะเชิงเทรา 24130
+                     </h2>
+                     <!-- <div class="d-flex align-items-center">
+                        <img src="assets/fax-1.svg" alt="" />
+                        <h3 class="text-white mb-0 px-2" style="font-size: 14px">
+                           038 086 731-9
+                        </h3>
+                        <img src="assets/tel-3.svg" alt="" />
+                        <h3 class="text-white mb-0 ps-2" style="font-size: 14px">
+                           038 086 731-9
+                        </h3>
+                     </div> -->
+                     <div class="d-flex mt-2">
+                        <img src="assets/email-2.svg" alt="" />
+                        <h3 class="text-white mb-0 ps-2" style="font-size: 14px">
+                           info@leadwayheavy.com 
+                        </h3>
+                     </div>
+                     <div class="d-flex mt-3">
+                        <img src="assets/call.svg" alt="" />
+                        <h1 class="text-yellow-1 fw-bold ms-2" style="font-size: 28px">
+                           Call Center 1462
+                        </h1>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <h5 class="text-end me-3 mt-3">
+               Copyright 2022 All right reserved Leadway Heavy Machinery co., ltd.
+            </h5>
+         </div>
+
+         <div class="alert text-center cookiealert" role="alert">
+            <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+    
+            <button type="button" class="btn btn-sm acceptcookies bg-primary-1 primary-btn text-white">
+                I agree
+            </button>
+        </div>
+      </footer>
+      <!-- footer end-->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script>
+         const myCarouselElement = document.querySelector("#myCarousel");
+         
+         const carousel = new bootstrap.Carousel(myCarouselElement, {
+           pause: null,
+           interval: 2000,
+         });
+      </script>
+      <script src="js/script.js"></script>
+      <script>
+         // (function () {
+         //     "use strict";
+   
+   
+         // })();
+   
+         $(document).ready(function () {
+             var cookieAlert = document.querySelector(".cookiealert");
+             var acceptCookies = document.querySelector(".acceptcookies");
+   
+             if (!cookieAlert) {
+               return;
+             }
+   
+             cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+   
+             // Show the alert if we cant find the "acceptCookies" cookie
+             if (!getCookie("acceptCookies")) {
+                 cookieAlert.classList.add("show");
+             }
+   
+             // When clicking on the agree button, create a 1 year
+             // cookie to remember user's choice and close the banner
+             acceptCookies.addEventListener("click", function () {
+   
+   
+                 $.ajax({
+                     type: "post",
+                     url: BASE_URL + "api_information.php",
+                     data: {
+                         "cmd": "acceptCookies",
+                         "accept": true,
+                     },
+                     dataType: "json",
+                     beforeSend: function(){
+                     },
+                     complete: function(){
+                     },
+                     success: function(res) {
+                       setCookie("acceptCookies", true, 365);
+                       cookieAlert.classList.remove("show");
+   
+                       // dispatch the accept event
+                       window.dispatchEvent(new Event("cookieAlertAccept"))
+   
+                     }
+                 });
+   
+             });
+   
+             // Cookie functions from w3schools
+             function setCookie(cname, cvalue, exdays) {
+                 var d = new Date();
+                 d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                 var expires = "expires=" + d.toUTCString();
+                 document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+             }
+   
+             function getCookie(cname) {
+                 var name = cname + "=";
+                 var decodedCookie = decodeURIComponent(document.cookie);
+                 var ca = decodedCookie.split(';');
+                 for (var i = 0; i < ca.length; i++) {
+                     var c = ca[i];
+                     while (c.charAt(0) === ' ') {
+                         c = c.substring(1);
+                     }
+                     if (c.indexOf(name) === 0) {
+                         return c.substring(name.length, c.length);
+                     }
+                 }
+                 return "";
+             }
+             
+           $(".category a").hover(
+             function () {
+               $("a.active").removeClass("active");
+             },
+             function () {
+               $(".wine a").addClass("active");
+             }
+           );
+         });
+       </script>
+   </body>
+</html>
