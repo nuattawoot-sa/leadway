@@ -48,6 +48,10 @@ a {
   color: #000;
 }
 
+.navbar:hover p,
+.navbar.scrolled a.active p {
+  color: #ffab00;
+}
 .navbar:hover svg,
 .navbar.scrolled svg {
   fill: #000;
@@ -104,6 +108,12 @@ a {
   }
   .navbar p {
     color: #000;
+  }
+  .navbar a {
+    color: #fff;
+  }
+  .navbar a.active {
+    color: #fbd424;
   }
   .navbar svg {
     fill: #000;
@@ -260,7 +270,7 @@ a {
 } */
 .section-2,
 .section-4 {
-  background-image: url(../assets/Web\ LeadWay\ 2\ middle\ 1-02.png);
+  background-image: url('../assets/Web LeadWay 3 Footer-01.png');
 }
 
 /* .section-2 h3 span {
@@ -385,7 +395,8 @@ a {
 /************  Footer  ************/
 /**********************************/
 .footer-content {
-  background-image: url(../assets/Web\ LeadWay\ 2\ middle\ 1-02.png);
+  background-image: url('../assets/Web LeadWay 3 Footer-01.jpg');
+  background-size: cover;
 }
 
 .footer-bg-component {
@@ -414,6 +425,18 @@ a {
 .footer h5 {
   font-size: 22px;
 }
+
+.language:hover {
+  color: black;
+}
+
+.nav-item, .active {
+  color: #ffab00 !important;
+}
+.nav-item, a{
+  color: #7e7e7d;
+}
+
 @media (max-width: 992px) {
   .head-topic {
     font-size: calc(5px + 10vw);
@@ -455,6 +478,7 @@ a {
   .navbar .nav-item a p {
     color: #fff;
   }
+  
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     padding-left: 2rem;
   }
@@ -516,7 +540,9 @@ a {
   /***********************************/
   /************ section-3 ************/
   /**********************************/
-
+  .nav-item, a.active p {
+    color: #ffab00 !important;
+  }
   .section-3 .head-topic {
     font-size: calc(5px + 8vw);
   }
@@ -543,6 +569,9 @@ a {
   /***********************************/
   /************ section-5 ************/
   /**********************************/
+  .nav-item, a.active p {
+    color: #ffab00 !important;
+  }
   .navbar input {
     font-size: 16px;
     padding: 10px 5px;
@@ -611,8 +640,8 @@ a {
 
 /* -------------------------------------------------------------------------------------------- */
 
-.z-20 {
-  z-index: 20;
+.z-99999 {
+  z-index: 99999;
 }
 .right-\[1\%\] {
   right: 1%;
@@ -832,13 +861,18 @@ button, input, optgroup, select, textarea {
 
 
 /* ---------------------------------------------------------------------------------- */
-
+.section_product{
+  /* background: url('http://en.xcmg.com/en-ap/resources/web/img/pro_center_ban.jpg') no-repeat center; */
+  background: url('../assets/product/BG.jpg')  no-repeat center;
+}
 .proCenter_banner {
-  background: url('http://en.xcmg.com/en-ap/resources/web/img/pro_center_ban.jpg') no-repeat center;
   padding: 20px 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.news {
+  background: ffffff !important;
 }
 .proCenter_banner .wrap {
   width: 1260px;
@@ -876,11 +910,13 @@ button, input, optgroup, select, textarea {
 .row > .span-8 {
   width: 65.66666667%;
 }
-.proCenter_banner li .rect-72 {
+
+.proCenter_banner div .rect-72 {
   padding-bottom: 72%;
 }
-.proCenter_banner li {
-  margin-bottom: 1%;
+.proCenter_banner div {
+  /* margin-bottom: 1%; */
+  padding-bottom: 1%;
 }
 [class*="rect-"] {
   position: relative;
@@ -898,18 +934,18 @@ button, input, optgroup, select, textarea {
   *height: auto;
 }
 
-.proCenter_banner li{
+.proCenter_banner div{
   list-style-type: none;
 
 }
 
-.proCenter_banner li .rect-72 {
+.proCenter_banner div .rect-72 {
   padding-bottom: 72%;
 }
-.proCenter_banner li .rect-35 {
+.proCenter_banner div .rect-35 {
   padding-bottom: 34.52%;
 }
-.proCenter_banner li .cover {
+.proCenter_banner div .cover {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -918,24 +954,26 @@ button, input, optgroup, select, textarea {
   width: 100%;
   height: 100%;
 }
-.proCenter_banner li .intro {
+.proCenter_banner div .intro {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 3;
+  /* background: linear-gradient(#ffffff4f, #112c6052); */
+  /* background: linear-gradient(135deg, orange 60%, cyan); */
 }
-.proCenter_banner li .intro .box {
+.proCenter_banner div .intro .box {
   padding: 34px;
 }
-.proCenter_banner li .li04 .intro .box .tit {
+.proCenter_banner div .li04 .intro .box .tit {
   color: #ffc13d;
 }
 
-.proCenter_banner li .li04 .intro .box .tit {
+.proCenter_banner div .li04 .intro .box .tit {
   color: #ffc13d;
 }
-.proCenter_banner li .intro .box .tit {
+.proCenter_banner div .intro .box .tit {
   font-size: 32px;
   line-height: 32px;
   color: #fff;
@@ -948,13 +986,77 @@ button, input, optgroup, select, textarea {
   text-overflow: ellipsis;
 }
 
-.proCenter_banner li.li04 .intro .box .tit {
-  color: #ffc13d;
+.proCenter_banner div.li04 .intro .box .tit {
+  color: #fff;
 }
-.proCenter_banner li .intro .box .tit {
+.proCenter_banner div .intro .box .tit {
   font-size: 32px;
   line-height: 32px;
   color: #fff;
   font-family: 'he';
   text-transform: uppercase;
 }
+/* row::before, .row::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+ul {
+  padding-left: 0;
+  list-style-type: none;
+} */
+@media only screen and (max-width: 760px) {
+/* 
+  .proCenter_banner {
+    padding: 30px 0;
+  }
+  .wrap, .mwrap {
+    padding-left: 3%;
+    padding-right: 3%;
+    width: auto;
+  }
+
+  .proCenter_banner div .intro .box {
+    padding: 10px;
+  }
+  .proCenter_banner div .intro .box .tit {
+    font-size: 16px;
+    line-height: 20px;
+  }   */
+  .row > .smal-6 {
+    width: 100%;
+  }
+  .row > .smal-12 {
+    width: 100%;
+  }
+}
+
+.date {
+  font-size: 16px;
+  color: #ddd;
+}
+.tit-news{
+  font-size: 20px;
+  color: #ffcb00;
+  font-weight: bolder;
+}
+
+.text-primary {
+  --tw-text-opacity: 1 !important;
+  color: rgba(251, 212, 36, var(--tw-text-opacity)) !important;
+}
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.mr-5{
+  margin-right:5px;
+}
+.ml-5{
+  margin-left:5px;
+}
+
+
+
+/* .language */
