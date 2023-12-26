@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_clicks",
+  "info": {
+    "singularName": "social-click",
+    "pluralName": "social-clicks",
+    "displayName": "social_click",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "social_name": {
+      "type": "string"
+    },
+    "ip_location": {
+      "type": "string"
+    },
+    "data_location": {
+      "type": "json"
+    },
+    "campaign_id": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::campaign.campaign",
+      "inversedBy": "social_clicks"
+    }
+  }
+}

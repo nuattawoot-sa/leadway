@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accepts",
+  "info": {
+    "singularName": "accept",
+    "pluralName": "accepts",
+    "displayName": "accept",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "count_accept": {
+      "type": "biginteger"
+    },
+    "ip_accept": {
+      "type": "string"
+    },
+    "data_accept": {
+      "type": "json"
+    }
+  }
+}
